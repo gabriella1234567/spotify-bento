@@ -1,0 +1,22 @@
+.resultCard {
+  display: flex;
+  flex-direction: column;
+    border: 1px solid #e0e0e0;
+    width: clamp(25%, 20%, 40rem);
+    flex-grow: 1;
+    margin: 1rem;
+    padding: 0.3rem;
+    
+  }
+
+  .resultCard img {
+    width: 30%;
+    height: 100%;
+  }
+
+  .imageName {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    max-height: 100%;
+  }
